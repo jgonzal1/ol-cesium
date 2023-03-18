@@ -17,7 +17,7 @@ import olFormatGeoJSON from 'ol/format/GeoJSON.js';
 import olLayerVector from 'ol/layer/Vector.js';
 import olFeature from 'ol/Feature.js';
 import olCircle from 'ol/geom/Circle.js';
-import {OLCS_ION_TOKEN} from './_common.js';
+import {OLCS_ION_TOKEN} from './_common.private.js';
 
 const image = new olStyleCircle({
   radius: 5,

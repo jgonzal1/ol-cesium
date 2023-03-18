@@ -7,7 +7,7 @@ import olLayerTile from 'ol/layer/Tile.js';
 import olMap from 'ol/Map.js';
 import {transform} from 'ol/proj.js';
 import olView from 'ol/View.js';
-import {OLCS_ION_TOKEN} from './_common.js';
+import {OLCS_ION_TOKEN} from './_common.private.js';
 
 
 const view = new olView({

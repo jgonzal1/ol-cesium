@@ -18,7 +18,7 @@ import olMap from 'ol/Map.js';
 import olSourceVector from 'ol/source/Vector.js';
 import olLayerVector from 'ol/layer/Vector.js';
 import olcsCore from 'olcs/core.js';
-import {OLCS_ION_TOKEN} from './_common.js';
+import {OLCS_ION_TOKEN} from './_common.private.js';
 
 
 const icon1Feature = new olFeature({

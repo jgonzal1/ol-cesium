@@ -15,7 +15,7 @@ import VectorTileSource from 'ol/source/VectorTile.js';
 import Stroke from 'ol/style/Stroke';
 import Style from 'ol/style/Style';
 import OSMSource from 'ol/source/OSM.js';
-import {OLCS_ION_TOKEN} from './_common.js';
+import {OLCS_ION_TOKEN} from './_common.private.js';
 
 Cesium.Ion.defaultAccessToken = OLCS_ION_TOKEN;
 

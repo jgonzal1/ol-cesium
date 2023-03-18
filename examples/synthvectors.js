@@ -13,7 +13,7 @@ import olSourceOSM from 'ol/source/OSM.js';
 import olLayerTile from 'ol/layer/Tile.js';
 import olFeature from 'ol/Feature.js';
 import olGeomPoint from 'ol/geom/Point.js';
-import {OLCS_ION_TOKEN} from './_common.js';
+import {OLCS_ION_TOKEN} from './_common.private.js';
 
 
 let total = 0;

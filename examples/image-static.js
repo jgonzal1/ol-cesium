@@ -12,7 +12,7 @@ import olMap from 'ol/Map.js';
 import {Image as ImageLayer} from 'ol/layer.js';
 import {getCenter} from 'ol/extent.js';
 import Static from 'ol/source/ImageStatic.js';
-import {OLCS_ION_TOKEN} from './_common.js';
+import {OLCS_ION_TOKEN} from './_common.private.js';
 
 const imageExtent = [-40, 50, -10, 65];
 

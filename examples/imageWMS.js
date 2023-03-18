@@ -9,7 +9,7 @@ import olSourceOSM from 'ol/source/OSM.js';
 import olLayerImage from 'ol/layer/Image.js';
 import olLayerTile from 'ol/layer/Tile.js';
 import olMap from 'ol/Map.js';
-import {OLCS_ION_TOKEN} from './_common.js';
+import {OLCS_ION_TOKEN} from './_common.private.js';
 
 const imageWMSSource = new olSourceImageWMS({
   url: 'https://ahocevar.com/geoserver/wms',

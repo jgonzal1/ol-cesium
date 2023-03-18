@@ -10,7 +10,7 @@ import olView from 'ol/View.js';
 import {defaults as olControlDefaults} from 'ol/control.js';
 import olOverlay from 'ol/Overlay.js';
 import {toStringHDMS} from 'ol/coordinate.js';
-import {OLCS_ION_TOKEN} from './_common.js';
+import {OLCS_ION_TOKEN} from './_common.private.js';
 /* global $ */
 
 const source = new olSourceOSM();

@@ -11,7 +11,7 @@ import {get as getProjection} from 'ol/proj.js';
 import OSM from 'ol/source/OSM.js';
 import WMTS from 'ol/source/WMTS.js';
 import WMTSTileGrid from 'ol/tilegrid/WMTS.js';
-import {OLCS_ION_TOKEN} from './_common.js';
+import {OLCS_ION_TOKEN} from './_common.private.js';
 
 Cesium.Ion.defaultAccessToken = OLCS_ION_TOKEN;
 const projection = getProjection('EPSG:3857');

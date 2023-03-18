@@ -8,7 +8,7 @@ import olSourceOSM from 'ol/source/OSM.js';
 import olLayerTile from 'ol/layer/Tile.js';
 import olMap from 'ol/Map.js';
 import olcsContribManager from 'olcs/contrib/Manager.js';
-import {OLCS_ION_TOKEN} from './_common.js';
+import {OLCS_ION_TOKEN} from './_common.private.js';
 
 const ol2d = new olMap({
   layers: [

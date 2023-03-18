@@ -15,7 +15,7 @@ import olMap from 'ol/Map.js';
 import olSourceVector from 'ol/source/Vector.js';
 import olGeomPolygon from 'ol/geom/Polygon.js';
 import olLayerVector from 'ol/layer/Vector.js';
-import {OLCS_ION_TOKEN} from './_common.js';
+import {OLCS_ION_TOKEN} from './_common.private.js';
 
 
 const vectorSource = new olSourceVector({

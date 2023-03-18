@@ -29,7 +29,7 @@ import olGeomMultiPolygon from 'ol/geom/MultiPolygon.js';
 import olLayerVector from 'ol/layer/Vector.js';
 import {transform} from 'ol/proj.js';
 import olcsCore from 'olcs/core.js';
-import {OLCS_ION_TOKEN} from './_common.js';
+import {OLCS_ION_TOKEN} from './_common.private.js';
 
 
 const iconFeature = new olFeature({

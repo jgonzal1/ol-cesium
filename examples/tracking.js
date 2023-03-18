@@ -13,7 +13,7 @@ import olStyleStyle from 'ol/style/Style.js';
 import olFeature from 'ol/Feature.js';
 import olGeomPoint from 'ol/geom/Point.js';
 import olMap from 'ol/Map.js';
-import {OLCS_ION_TOKEN} from './_common.js';
+import {OLCS_ION_TOKEN} from './_common.private.js';
 
 
 const point = new olGeomPoint([700000, 200000, 100000]);

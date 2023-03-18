@@ -10,7 +10,7 @@ import olLayerTile from 'ol/layer/Tile.js';
 import olMap from 'ol/Map.js';
 import {get as getProjection} from 'ol/proj.js';
 import './_proj21781.js';
-import {OLCS_ION_TOKEN} from './_common.js';
+import {OLCS_ION_TOKEN} from './_common.private.js';
 
 const customProjSource = new olSourceImageWMS({
   attributions: '© <a href="http://www.geo.admin.ch/internet/geoportal/' +
