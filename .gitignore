@@ -5,4 +5,5 @@
 /package-lock.json
 /compilation-stats.json
 /*.zip
+desktop.ini
 *.private.js
